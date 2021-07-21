@@ -2,20 +2,110 @@
 <html>
     <head>
         <title>Mi primera página</title>
+        <link rel="stylesheet" href="main.css" type="text/css" />
     </head>
     <body>
+<!--Primeras etiquetas-->
+        <h1>titulos</h1>
+        <h2>titulos</h2>
+        <h3>titulos</h3>
+        <h4>titulos</h4>
+        <h5>titulos</h5>
+        <h6>titulos</h6>
+        <p>parrafos</p>
+        <p>Salto de linea <br /> :)</p>
+        <!--<p>Comentarios</p>-->
+        <p>parrafos en <b>negrita</b></p>
+        <blockquote>Citas</blockquote>
+        <code>Codigos</code>
+        <em>Enfasis (cursiva)</em>
+        <i>Lo mismo pero más barato (cursiva)</i>
+        <pre>Preformateado</pre>
+        <s>Tachado</s>
+        <small>Texto pequeño</small>
+        <strong>Lo mismo pero más barato (negrita)</strong>
+        <u>subrayado</u>
+        <div>División (Da un salto de línea automatico)</div>
+        <hr />
+
+<!--Formularios-->
         <form>
-            <input type="number"/>
-            <input type="password"/>
-            <input type="text"/>
-            <input type="submit" value="Okey"/>
-            <input type="number"/>
-            <textarea></textarea>
-            <button>Enviar</button>
-            <select>
-                <option value="edad">Mayor</option>
-                <option value="edad">Menor</option>
-            </select>
+            <fieldset>
+                <legend>Datos</legend>
+                <label>Edad</label>
+                <input type="number" placeholder="Ingrese su edad"/>
+                <br />
+                <label>Contraseña</label>
+                <input type="password" placeholder="Ingrese su contraseña"/>
+                <br />
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre completo"/>
+                <input type="submit" value="Okey"/>
+                <br />
+                <textarea></textarea>
+                <button>Enviar</button>
+                <br />
+                <select>
+                    <option value="edad">Mayor</option>
+                    <option value="edad">Menor</option>
+                </select>
+            </fieldset>
         </form>
+        <hr />
+<!--Imagenes, links, listas y tablas-->
+        <img src="https://placekitten.com/g/1600/100" />
+        <a href="https://www.udemy.com/course/aprende-javascript-es9-html-css3-y-nodejs-desde-cero/learn/lecture/15983882#overview">Ir al curso</a>
+        <ul>
+            <li>Teoria</li>
+            <li>Memorizacion</li>
+            <li>Repeticion</li>
+        </ul>
+        <ol>
+            <li>Inicio</li>
+            <li>Nudo</li>
+            <li>Desenlace</li>
+        </ol>
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>9:40 AM</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>5:15 AM</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>11:50 AM</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8:00 AM</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Hora de entrada más cómun</td>
+                    <td>8:00 AM</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr />
+<!--CSS-->
+        <p>Parrafo x</p>
+        <span>Span x</span>
     </body>
 </html>
