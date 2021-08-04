@@ -1,0 +1,18 @@
+body {
+  background-color: #b36e6e;
+}
+#y {
+  color: rgb(163, 18, 163);
+}
+.x {
+  color: seagreen;
+}
+.caja {
+  margin: 6px;
+  padding: 7px;
+  border: 6px solid cornflowerblue;
+}
+.text {
+  border: 4px solid peru;
+  margin: 4px;
+}
