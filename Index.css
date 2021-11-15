@@ -63,7 +63,8 @@ a {
   color: deepskyblue;
 }
 
-ul > li {
-  color: #686161;
-  list-style-type: circle;
+.fondo {
+  background: lightcoral url("http://placekitten.com/g/400/200") no-repeat left
+    top fixed;
+  background-size: cover;
 }
