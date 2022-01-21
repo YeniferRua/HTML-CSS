@@ -1,0 +1,51 @@
+body{
+    background-color: hsl(251, 22%, 61%);
+}
+
+#primera{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 38px;
+    margin: 5px;
+    border-left:solid 6px crimson;
+    padding-top: 1px;
+    text-align: center;
+    box-shadow: 3px 2px 5px rgb(71, 71, 71);
+    transition: 0.3s;
+}
+
+#primera:hover{
+    transform: scale(1.05,1.05);
+}
+
+#segunda{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 38px;
+    margin: 5px;
+    border-left:solid 6px aquamarine;
+    text-align: center;
+    padding-top: 1px;
+    box-shadow: 3px 2px 5px rgb(71, 71, 71);
+    transition: 0.3s;
+}
+
+#segunda:hover{
+    box-shadow: 8px 6px 5px rgb(71, 71, 71);
+}
+
+#tercera{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 38px;
+    margin: 5px;
+    border-left:solid 6px rgb(53, 53, 146);
+    text-align: center;
+    padding-top: 1px;
+    box-shadow: 3px 2px 5px rgb(71, 71, 71);
+    transition: 0.3s;
+}
+
+#tercera:hover{
+    background-color: lightblue;
+}
