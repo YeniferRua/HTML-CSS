@@ -1,0 +1,42 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/animal-pattern-background-colorful-seamless-line-art-design-vector_53876-151381.jpg?w=996");
+}
+
+#Superior {
+  display: grid;
+  grid-template-columns: 900px 450px;
+  grid-template-rows: 170px;
+  grid-column-gap: 25px;
+}
+
+.superiores {
+  background-color: crimson;
+}
+
+#Intermedio {
+  display: grid;
+  grid-template-columns: 900px 450px;
+  grid-template-rows: 170px 170px;
+  grid-column-gap: 25px;
+}
+
+.intermedios {
+  background-color: purple;
+}
+
+#F {
+  background-color: sandybrown;
+  display: grid;
+  grid-row: 1/3;
+}
+
+#Inferior {
+  display: grid;
+  grid-template-columns: 440px 440px 440px;
+  grid-template-rows: 170px;
+  grid-column-gap: 25px;
+}
+
+.inferiores {
+  background-color: steelblue;
+}
